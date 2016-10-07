@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Mexico_City',
 
     /*
     |--------------------------------------------------------------------------
@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        FBX\Providers\AppServiceProvider::class,
+        FBX\Providers\AuthServiceProvider::class,
+        // FBX\Providers\BroadcastServiceProvider::class,
+        FBX\Providers\EventServiceProvider::class,
+        FBX\Providers\RouteServiceProvider::class,
 
     ],
 
